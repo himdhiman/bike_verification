@@ -30,7 +30,7 @@ from torchvision import models, transforms
 # ── Configuration ─────────────────────────────────────────────────────────────
 
 EMBEDDINGS_FILE = "bike_embeddings.npy"
-SIMILARITY_THRESHOLD = 0.75
+SIMILARITY_THRESHOLD = 0.5
 
 # Must exactly match the transform used in generate_embeddings.py
 TRANSFORM = transforms.Compose(
